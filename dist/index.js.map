@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["console","log"],"mappings":";;;AAAA,aACA,QAAA,iBADAA,QAAQC,IAAI","file":"index.js","sourceRoot":"..","sourcesContent":["console.log('hello world');\nimport './global.scss'\n"]}
