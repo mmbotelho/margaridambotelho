@@ -1,6 +1,6 @@
-Margarida Botelho
+# Margarida Botelho
 
-**Development**
+## Development
 - Using [parcel](https://parceljs.org/)
 
 **Run server**
@@ -11,7 +11,7 @@ Margarida Botelho
 - run `parcel index.html`
 
 
-#### Deploying
+## Deploying
 **Build** 
 - `parcel build index.html --public-url ./`
 
