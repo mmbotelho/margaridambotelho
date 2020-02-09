@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'sporting_grotesquebold';
+    src: url('fonts/okinawa2/sportinggrotesque-bold-webfont.woff2') format('woff2'),
+         url('fonts/okinawa2/sportinggrotesque-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'compagnonroman';
+    src: url('fonts/okinawa2/compagnon-roman-webfont.woff2') format('woff2'),
+         url('fonts/okinawa2/compagnon-roman-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'compagnonmedium';
+    src: url('fonts/okinawa2/compagnon-medium-webfont.woff2') format('woff2'),
+         url('fonts/okinawa2/compagnon-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'compagnonbold';
+    src: url('fonts/okinawa2/compagnon-bold-webfont.woff2') format('woff2'),
+         url('fonts/okinawa2/compagnon-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+//-------------------------------------
+// VARIABLES
+//-------------------------------------
+
+// Colors
+$okinawa-yellow: #F7E583;
+$okinawa-black: rgba(0,0,0,0.8);
+
+// Fonts
+$okinawa-sporting: sporting_grotesquebold;
+$okinawa-compagnon-roman: compagnonroman;
+$okinawa-compagnon-medium: compagnonmedium;
+$okinawa-compagnon-bold: compagnonbold;
+
+// Font sizes
+$okinawa-title-size: 2.3125rem;
+$okinawa-p-size: 1.75rem;
+
+// Styles
+$okinawa-border: 1px solid $okinawa-black;
+
+
+//-------------------------------------
+// GENERAL STYLES
+//-------------------------------------
+.okinawa2 {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: $okinawa-yellow;
+  color: $okinawa-black;
+
+  > * {
+    box-sizing: inherit;
+  }
+
+  h1 {
+    font-family: $okinawa-sporting;
+    font-size: $okinawa-title-size;
+    margin: 0;
+  }
+
+  p {
+    margin: 0;
+    font-family: $okinawa-compagnon-roman;
+    font-size: 1.75rem;
+  }
+}
+
+
+//-------------------------------------
+// INTRO STYLES
+//-------------------------------------
+.okinawa2 .intro {
+  padding: 3.75rem 3.75rem 0 3.75rem;
+  height: calc(100vh - #{$okinawa-title-size}*2 - 3rem*2);
+}
+
+//-------------------------------------
+// WORK STYLES
+//-------------------------------------
+.okinawa2 .work {
+  text-align: center;
+
+  h1 {
+    display: inline-block;
+    padding: 1.5rem 7.75rem;
+    border: $okinawa-border;
+  }
+}

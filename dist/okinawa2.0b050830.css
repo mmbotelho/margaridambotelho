@@ -1,0 +1,59 @@
+@font-face {
+  font-family: "sporting_grotesquebold";
+  src: url("/sportinggrotesque-bold-webfont.1c8140bb.woff2") format("woff2"), url("/sportinggrotesque-bold-webfont.c2dbfc67.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "compagnonroman";
+  src: url("/compagnon-roman-webfont.179bc9f0.woff2") format("woff2"), url("/compagnon-roman-webfont.7aa209b1.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "compagnonmedium";
+  src: url("/compagnon-medium-webfont.9c6e3919.woff2") format("woff2"), url("/compagnon-medium-webfont.c35357b5.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "compagnonbold";
+  src: url("/compagnon-bold-webfont.09ff04f7.woff2") format("woff2"), url("/compagnon-bold-webfont.11038cd9.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+.okinawa2 {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #F7E583;
+  color: rgba(0, 0, 0, 0.8);
+}
+.okinawa2 > * {
+  box-sizing: inherit;
+}
+.okinawa2 h1 {
+  font-family: sporting_grotesquebold;
+  font-size: 2.3125rem;
+  margin: 0;
+}
+.okinawa2 p {
+  margin: 0;
+  font-family: compagnonroman;
+  font-size: 1.75rem;
+}
+
+.okinawa2 .intro {
+  padding: 3.75rem 3.75rem 0 3.75rem;
+  height: calc(100vh - 2.3125rem*2 - 3rem*2);
+}
+
+.okinawa2 .work {
+  text-align: center;
+}
+.okinawa2 .work h1 {
+  display: inline-block;
+  padding: 1.5rem 7.75rem;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+/*# sourceMappingURL=/okinawa2.0b050830.css.map */

@@ -1,0 +1,36 @@
+@keyframes laserOn {
+  0%,
+  15% {
+    opacity: 0;
+  }
+  17% {
+    opacity: 0.8;
+  }
+  18% {
+    opacity: 0.1;
+  }
+  19% {
+    opacity: 0.8;
+  }
+  22% {
+    opacity: 0.2;
+  }
+  25%,
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {transform: rotate(360deg);}
+}
+
+@keyframes hover {
+  0% { background-position: 50% 50%; }
+  50% {background-position: 50% 20%;}
+  100% {background-position: 50% 50%;}
+}

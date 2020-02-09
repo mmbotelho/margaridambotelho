@@ -1,0 +1,67 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+.okinawa {
+  background-color: #000;
+  color: #fff;
+  padding: 30px;
+  position: relative;
+  overflow-x: hidden;
+}
+.okinawa .intro {
+  height: calc(100vh - 96px - 120px);
+}
+.okinawa .work {
+  text-align: center;
+}
+.okinawa .name-circle {
+  width: 250px;
+  heigh: 250px;
+}
+.okinawa .name-circle circle {
+  fill: none;
+}
+.okinawa .name-circle path {
+  fill: #FF8617;
+}
+.okinawa .waving-hand {
+  position: absolute;
+  right: -20px;
+  top: -20px;
+}
+.okinawa .work-experience {
+  display: inline-block;
+  background-color: #F7E583;
+  padding: 30px 100px;
+  color: #000;
+  position: relative;
+  margin: 0;
+  margin-bottom: 100px;
+}
+.okinawa .work-experience:after, .okinawa .work-experience:before {
+  content: "";
+  border-radius: 100px;
+  width: 96px;
+  height: 96px;
+  background-color: #F7E583;
+  position: absolute;
+  top: 0;
+  background-image: url("/point-down.d7d0761b.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.okinawa .work-experience:before {
+  left: -130px;
+}
+.okinawa .work-experience:after {
+  right: -130px;
+}
+
+/*# sourceMappingURL=/okinawa.59472bc5.css.map */
